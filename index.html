@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>flex display</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" href="font\css\font-awesome.min.css">
+<style>
+ 
+body{
+	width:100%;
+	margin:auto;
+	}
+.flex{
+	display:flex;
+	margin-top:10%;
+}
+/*flx1*/
+div.flx1{
+	border-radius:12px;
+	width:15%;
+	background-color:white;
+	box-shadow:0px 0px 5px #ccc;
+	position:relative;
+	left:5%;
+}
+.id1{
+	transition:.3s ease;
+	opacity:0;
+	color:red;
+	position:absolute;
+	top: 70%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+.flx1:hover .id1{
+	opacity:1;
+}
+div.abt1{
+	text-align:center;
+	padding:10px 20px;
+}
+
+/*flx2*/
+div.flx2{
+	border-radius:12px;
+	width:15%;
+	background-color:white;
+	box-shadow:0px 0px 5px #ccc;
+	position:relative;
+	left:10%;
+}
+.id2{
+	transition:.3s ease;
+	opacity:0;
+	color:red;
+	position:absolute;
+	top: 70%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+.flx2:hover .id2{
+	opacity:1;
+}
+div.abt2{
+	text-align:center;
+	padding:10px 22px;
+}
+
+/*flx3*/
+div.flx3{
+	border-radius:12px;
+	width:15%;
+	background-color:white;
+	box-shadow:0px 0px 5px #ccc;
+	position:relative;
+	left:15%;
+}
+.id3{
+	transition:.3s ease;
+	opacity:0;
+	color:red;
+	position:absolute;
+	top: 70%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+.flx3:hover .id3{
+	opacity:1;
+}
+div.abt3{
+	text-align:center;
+	padding:10px 20px;
+}
+
+/*flex4*/
+div.flx4{
+	border-radius:12px;
+	width:15%;
+	background-color:white;
+	box-shadow:0px 0px 5px #ccc;
+	position:relative;
+	left:20%;
+}
+.id4{
+	transition:.3s ease;
+	opacity:0;
+	color:red;
+	position:absolute;
+	top: 70%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+.flx4:hover .id4{
+	opacity:1;
+}
+
+div.abt4{
+	text-align:center;
+	padding:10px 20px;
+}
+/*icon hover*/
+.fa.fa-google,.fa.fa-twitter,.fa.fa-instagram,.fa.fa-facebook-square,.fa.fa-linkedin{
+	position:relative;
+	left:52%;
+	margin-left:20px;
+	display:inline-block;
+	font-size:25px;
+}
+.fa.fa-instagram:hover{
+	color:pink;
+}
+.fa.fa-facebook-square:hover{
+	color:blue;
+}
+.fa.fa-linkedin:hover{
+	color:white;
+}
+.fa.fa-twitter:hover{
+	color:powderblue;
+}
+</style>
+<body>
+<div class="flex">
+	<!--flex1-->
+	<div class="flx1">
+		<img src="image/sunder.jpg" style="width:100%;">
+		<div class="id1">
+		<i class="fa fa-twitter" aria-hidden="true"></i>
+		<i class="fa fa-instagram" aria-hidden="true"></i>
+		<i class="fa fa-facebook-square" aria-hidden="true"></i>
+		<i class="fa fa-linkedin" aria-hidden="true"></i>
+		</div>
+		<div class="abt1">
+			<p>sundar pichai<br><small style="font-size:10px;">CEO of Alphabet and Google</small></p>
+		</div>
+	</div>
+	<!--flex2-->
+	<div class="flx2">
+		<img src="image/satya.jpg" style="width:100%;height:80%;">
+		<div class="id2">
+		<i class="fa fa-twitter" aria-hidden="true"></i>
+		<i class="fa fa-instagram" aria-hidden="true"></i>
+		<i class="fa fa-facebook-square" aria-hidden="true"></i>
+		<i class="fa fa-linkedin" aria-hidden="true"></i>
+		</div>
+		<div class="abt2">
+			<p>Satya Nadella<br><small style="font-size:10px;">Chairman and CEO, Microsoft</small></p>
+		</div>
+	</div>
+	<!--flex3-->
+	<div class="flx3">
+		<img src="image/arvind.jpg" style="width:100%;height:80%;">
+		<div class="id3">
+		<i class="fa fa-twitter" aria-hidden="true"></i>
+		<i class="fa fa-instagram" aria-hidden="true"></i>
+		<i class="fa fa-facebook-square" aria-hidden="true"></i>
+		<i class="fa fa-linkedin" aria-hidden="true"></i>
+		</div>
+		<div class="abt3">
+			<p>Arvind KrishnaArvind Krishna<br><small style="font-size:10px;">Chairman & CEO of IBM</small></p>
+		</div>
+	</div>
+	<!--flex4-->
+	<div class="flx4">
+		<img src="image/salil.jpg" style="width:100%;height:80%">
+		<div class="id4">
+		<i class="fa fa-twitter" aria-hidden="true"></i>
+		<i class="fa fa-instagram" aria-hidden="true"></i>
+		<i class="fa fa-facebook-square" aria-hidden="true"></i>
+		<i class="fa fa-linkedin" aria-hidden="true"></i>
+		</div>
+		<div class="abt4">
+			<p>Salil Parekh<br><small style="font-size:10px;">CEO & MD of Infosys</small></p>
+		</div>
+	</div>
+</div>
+</body>
+</html>
